@@ -34,3 +34,8 @@
     >_reCAPTCHA v3 returns a score for each request without user friction. The score is based on interactions with your site and enables you to take an appropriate action for your site. Register reCAPTCHA v3 keys [here](https://www.google.com/recaptcha/admin/create)._
 
     _https://developers.google.com/recaptcha/docs/v3_
+
+
+    ### * Important! *
+    
+    On `server/app/api/index.js` file the there's a real and hard-coded responses. Check which one is not commented.
