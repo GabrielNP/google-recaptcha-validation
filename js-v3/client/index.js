@@ -1,3 +1,8 @@
+/*
+ * Not used for now
+ *
+ * 
+
 document.getElementById("my_captcha_form").addEventListener("submit",function(evt)
   {
     console.log('bateu');
@@ -12,4 +17,4 @@ document.getElementById("my_captcha_form").addEventListener("submit",function(ev
   //captcha verified
   //do the rest of your validations here
   
-});
+}); */
