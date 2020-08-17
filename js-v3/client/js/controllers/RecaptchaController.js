@@ -1,4 +1,4 @@
-class Controller {
+class RecaptchaController {
     sendPost() {
         event.preventDefault();
         let service = new RecaptchaService();      
@@ -19,5 +19,4 @@ class Controller {
         });
 
     }
-
 }
