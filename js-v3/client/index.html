@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src='https://www.google.com/recaptcha/api.js?render=<SITE_KEY>'></script>
+    </head>
+    <body>
+        <form id="myForm" onsubmit="controller.sendPost(event)">
+            <input id="nome" type="text" name="name" placeholder="Your name" value='js' required><br><br>
+            <input id="email" type="email" name="email" placeholder="Your email address" value='gabriel@email.com' required><br><br>
+            <textarea id="msg" name="message" placeholder="Type your message here...." required>Olá</textarea><br><br>
+            <input type="submit" name="submit" value="SUBMIT">
+        </form>
+
+        <script src="js/controllers/RecaptchaController.js"></script>
+        <script src="js/service/HttpService.js"></script>
+        <script src="js/service/RecaptchaService.js"></script>
+        <script>
+            var controller = new Controller();
+        </script>
+    </body>
+</html>

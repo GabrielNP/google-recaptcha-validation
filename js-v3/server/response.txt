@@ -1,0 +1,31 @@
+
+> app@1.0.0 start /home/gabrielnp/projects/estudos/recaptcha/js-v3/server
+> node server.js
+
+/home/gabrielnp/projects/estudos/recaptcha/js-v3/client
+Servidor estutando na porta: 3333
+{ success: true,
+  challenge_ts: '2020-08-17T14:29:02Z',
+  hostname: 'localhost',
+  score: 0.9,
+  action: 'create_comment' }
+{ success: true,
+  challenge_ts: '2020-08-17T14:31:40Z',
+  hostname: 'localhost',
+  score: 0.9,
+  action: 'create_comment' }
+{ success: true,
+  challenge_ts: '2020-08-17T14:35:53Z',
+  hostname: 'localhost',
+  score: 0.9,
+  action: 'create_comment' }
+{ success: true,
+  challenge_ts: '2020-08-17T14:36:56Z',
+  hostname: 'localhost',
+  score: 0.9,
+  action: 'create_comment' }
+{ success: true,
+  challenge_ts: '2020-08-17T14:38:03Z',
+  hostname: 'localhost',
+  score: 0.9,
+  action: 'create_comment' }
