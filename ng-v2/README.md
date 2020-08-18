@@ -24,3 +24,7 @@
     > _Register reCAPTCHA v3 keys [here](https://www.google.com/recaptcha/admin/create)._
 
    _https://developers.google.com/recaptcha/intro_
+
+## References
+
+  - https://github.com/DethAriel/ng-recaptcha/blob/master/README.md#example-basic
