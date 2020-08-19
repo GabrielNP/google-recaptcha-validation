@@ -1,27 +1,26 @@
-# V3
+# Recaptcha v3 with Angular with v2 Challenge check
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+## How to run
 
-## Development server
+1. Run on terminal:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    ```
+    npm install
 
-## Code scaffolding
+    npm start
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    The application will run on port 4200. Access `http://localhost:4200/`.
 
-## Build
+2. In folder src/environments rename environment.example.ts to environment.ts
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+3. Get your site key from `https://www.google.com/recaptcha/admin` and set it on
+    - src/environments/environment.ts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+    More information about how to get these keys check 
+    
+    > _Register reCAPTCHA v3 keys [here](https://www.google.com/recaptcha/admin/create)._
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+   _https://developers.google.com/recaptcha/intro_

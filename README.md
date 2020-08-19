@@ -9,7 +9,7 @@
 [ng-v3](./ng-v3/) --> Recaptcha v3 with Angular
 
 
-[ng-v3-demo](./ng-v3-demo/) --> Recaptcha v3 with Angulara and v2 challenge
+[ng-v3-demo](./ng-v3-demo/) --> Recaptcha v3 with Angular and v2 challenge
 
 ### Check the implementation and example in each folder as desired!
 
