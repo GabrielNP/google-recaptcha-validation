@@ -1,0 +1,8 @@
+<div>
+  <button id="btn-1" (click)="executeAction('login')">LOGIN</button>
+</div>
+
+<re-captcha *ngIf="challenge"
+    (resolved)="RecaptchaV2Resolved($event)"
+    [siteKey]="siteKey" >
+  </re-captcha>`
